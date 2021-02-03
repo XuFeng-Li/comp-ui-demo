@@ -1,6 +1,6 @@
 export default {
     // 要打包的文件源路径
-    input: 'src/index.js',
+    input: 'src/main.js',
     // 文件输出配置
     output: {
         // 打包后产生的文件位置
