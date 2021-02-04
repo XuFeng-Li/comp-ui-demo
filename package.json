@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "min": "dist/index.min.js",
   "module": "dist/es/index.es.js",
-  "style": "dist/style/index.css",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

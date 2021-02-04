@@ -20,7 +20,7 @@ module.exports = {
             "import",
             {
                 "libraryName": "antd",
-                "libraryDirectory": "es",
+                "libraryDirectory": "css",
                 // `style: true` 会加载 less 文件, css加载.css文件
                 "style": true,
             }

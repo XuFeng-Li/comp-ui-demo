@@ -30,7 +30,7 @@ export default {
             file: pkg.module,
             format:'es',
             sourcemap:true,
-        }
+        },
     ],
     // 打包时忽略的文件
     external:[
@@ -59,7 +59,7 @@ export default {
                 // cssnano 就是这样的一个缩减器，它使基于 Node.js 开发的。cssnano 是一个 PostCSS 插件，可以添加到你的构建流程中，用于确保最终生成的 用于生产环境的 CSS 样式表文件尽可能的小
                 cssnano,
             ],
-            extract: pkg.style,
+            extract: "dist/css/index.css",
             use: [
                 ['less', { javascriptEnabled: true}]
             ]
