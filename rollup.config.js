@@ -5,6 +5,10 @@ import babel from 'rollup-plugin-babel';
 import postcss from 'rollup-plugin-postcss';
 import json from 'rollup-plugin-json';
 import url from 'rollup-plugin-url';
+// import terser from 'rollup-plugin-terser';
+import scss from 'rollup-plugin-scss';
+import resolve from 'rollup-plugin-node-resolve';
+import external from 'rollup-plugin-peer-deps-external';
 import svgr from '@svgr/rollup';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
@@ -19,18 +23,26 @@ export default {
     input: path.resolve(__dirname, './src', 'index.js'),
     // 文件输出配置
     output: [
+        // {
+        //     // 打包后产生的文件位置
+        //     file: pkg.main,
+        //     // 文件的输出格式（CommonJS规范，时Node.js的官方模块化规范）
+        //     format:'cjs',
+        //     sourcemap:true,
+        // },
         {
-            // 打包后产生的文件位置
             file: pkg.main,
-            // 文件的输出格式（CommonJS规范，时Node.js的官方模块化规范）
             format:'cjs',
-            sourcemap:true,
         },
         {
             file: pkg.module,
             format:'es',
             sourcemap:true,
         },
+        {
+            file: pkg.scss,
+            format:'esm',
+        }
     ],
     // 打包时忽略的文件
     external:[
@@ -50,6 +62,12 @@ export default {
         json(),
         url(),
         svgr(),
+        external(),
+        scss(),
+        // terser(),
+        resolve({
+            jsnext: true,
+        }),
         postcss({
             modules:true,
             exec: true,
