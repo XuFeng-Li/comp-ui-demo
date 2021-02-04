@@ -1,4 +1,3 @@
-
 // babel.config.js
 // babel 不支持 es 语法
 
@@ -14,8 +13,20 @@ module.exports = {
         "@babel/preset-react"
     ],
     plugins: [
+        // "@babel/plugin-external-helpers",
+        "@babel/plugin-transform-arrow-functions",
+        "@babel/plugin-proposal-class-properties",
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                // `style: true` 会加载 less 文件, css加载.css文件
+                "style": true,
+            }
+        ]
     ],
-    ignore: [
-        'node_modules/**',
-    ]
+    // ignore: [
+    //     'node_modules/**',
+    // ]
 };
