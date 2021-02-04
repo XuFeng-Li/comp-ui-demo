@@ -9,5 +9,17 @@ export default {
         format:'cjs',
         // 包的全局变量名称
         name:'bundleName'
-    }
+    },
+    // 打包时忽略的文件
+    external:[
+
+    ],
+    // 全局变量，指定打包时使用的全局变量，类似别名
+    global:{
+
+    },
+    // 插件
+    plugin: [
+
+    ]
 }

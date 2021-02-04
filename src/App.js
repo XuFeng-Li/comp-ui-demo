@@ -18,6 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <body></body>
+      <script src='../dist/bundle.cjs.js' />
     </div>
   );
 }

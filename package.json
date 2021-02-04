@@ -38,6 +38,9 @@
   },
   "devDependencies": {
     "lerna": "^3.22.1",
-    "rollup": "^2.38.4"
+    "rollup": "^2.38.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
