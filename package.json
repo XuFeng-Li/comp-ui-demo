@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "antd": "^4.12.2",
+    "core-js": "^3.8.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -22,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "rollup:build": "rollup -c"
+    "rollup:build": "rollup -c",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +54,12 @@
     "@babel/preset-env": "^7.12.13",
     "@babel/preset-react": "^7.12.13",
     "@rollup/plugin-url": "^6.0.0",
+    "@storybook/addon-actions": "^6.1.16",
+    "@storybook/addon-essentials": "^6.1.16",
+    "@storybook/addon-links": "^6.1.16",
+    "@storybook/node-logger": "^6.1.16",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.16",
     "@svgr/rollup": "^5.5.0",
     "autoprefixer": "^10.2.4",
     "babel-plugin-import": "^1.13.3",
