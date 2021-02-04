@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "min": "dist/index.min.js",
   "module": "dist/es/index.es.js",
-  "scss":"dist/esm/index.esm.scss",
+  "scss": "dist/esm/index.esm.scss",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -68,7 +68,11 @@
     "cssnano": "^4.1.10",
     "lerna": "^3.22.1",
     "less": "^4.1.1",
+    "less-loader": "^8.0.0",
     "postcss": "^8.2.4",
+    "postcss-loader": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react-dev-utils": "^11.0.2",
     "rollup": "^2.38.4",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -80,7 +84,10 @@
     "rollup-plugin-scss": "^2.6.1",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-url": "^3.0.1",
+    "storybook-readme": "^5.0.9",
     "ts-import-plugin": "^1.6.7",
-    "typescript": "^4.1.3"
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack-cli": "^4.5.0"
   }
 }
