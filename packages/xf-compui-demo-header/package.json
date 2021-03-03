@@ -8,20 +8,17 @@
   "author": "李旭峰 <lxf@asman.com.cn>",
   "homepage": "https://github.com/XuFeng-Li/comp-ui-demo",
   "license": "ISC",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "main": "dist/index.js",
+  "module": "dist/es/index.es.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XuFeng-Li/comp-ui-demo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rollup -c ../../rollup.config.js",
+    "module": "dist/es/index.es.js",
+    "rollup": "rollup -c"
   },
   "bugs": {
     "url": "https://github.com/XuFeng-Li/comp-ui-demo/issues"

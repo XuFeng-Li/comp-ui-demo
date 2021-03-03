@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const xfCompuiDemoHeader = require('xf-compui-demo-header');
+const header = require('xf-compui-demo-header');
 
 // TODO: DEMONSTRATE API
 ```
