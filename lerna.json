@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "version_comment": "当前存储库的版本，当为 independent 时，开启独立模式",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "npmClient_comment": "一个选项，用于指定运行命令的特定客户端。 可更改为 yarn 或者 cnpm",
   "npmClient": "npm",
   "command": {
