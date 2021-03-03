@@ -1,0 +1,34 @@
+0 silly argv { _: [ 'version' ], lernaVersion: '3.22.1', '$0': 'lerna' }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/lucky1204/Documents/Learn/LearnCompUI/comp-ui-demo
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch feat/1.0.0
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream feat/1.0.0 is behind origin/feat/1.0.0 by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "076aa0f" => {"refCount":"19","sha":"076aa0f","isDirty":false}
+14 info Assuming all packages changed
+15 verbose updated xfbutton
+16 verbose git-describe undefined => "076aa0f"
+17 silly git-describe parsed => {"refCount":"19","sha":"076aa0f","isDirty":false}
+18 info execute Skipping releases
+19 silly lifecycle No script for "preversion" in "comp-ui-demo", continuing
+20 silly lifecycle No script for "preversion" in "xfbutton", continuing
+21 silly lifecycle No script for "version" in "xfbutton", continuing
+22 silly lifecycle No script for "version" in "comp-ui-demo", continuing
+23 silly gitAdd [ 'packages/xfbutton/package.json', 'lerna.json' ]
+24 silly gitCommit chore(release): publish v0.0.1
+25 verbose git [ 'commit', '-m', 'chore(release): publish v0.0.1' ]
+26 silly gitTag v0.0.1
+27 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
+28 error Error: Command failed: git tag v0.0.1 -m v0.0.1
+28 error fatal: tag 'v0.0.1' already exists
+28 error
+28 error     at makeError (/Users/lucky1204/Documents/Learn/LearnCompUI/comp-ui-demo/node_modules/execa/index.js:174:9)
+28 error     at /Users/lucky1204/Documents/Learn/LearnCompUI/comp-ui-demo/node_modules/execa/index.js:278:16
+28 error     at processTicksAndRejections (node:internal/process/task_queues:93:5)

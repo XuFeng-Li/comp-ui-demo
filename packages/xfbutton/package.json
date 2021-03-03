@@ -1,0 +1,24 @@
+{
+  "name": "xfbutton",
+  "version": "0.0.3",
+  "description": "自定义按钮",
+  "author": "李旭峰 <lxf@asman.com.cn>",
+  "homepage": "https://github.com/XuFeng-Li/comp-ui-demo#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/es/index.es.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuFeng-Li/comp-ui-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ../../rollup.config.js",
+    "module": "dist/es/index.es.js",
+    "rollup": "rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/XuFeng-Li/comp-ui-demo/issues"
+  },
+  "gitHead": "cd3d036417fe9f45d3d3d9552c11d671f795c6a3"
+}
