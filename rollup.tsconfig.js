@@ -10,34 +10,35 @@ import svgr from '@svgr/rollup';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
 
-const cwd = process.cwd();
-const pkgPath = path.resolve(cwd,'./package.json');
-const pkg = require(pkgPath);
-const mainPkg = require('./package.json');
+import pkg from './package.json';
+
+const tsImportPluginFactory = require("ts-import-plugin");
+
+const tsImportPlugin = tsImportPluginFactory({
+    libraryDirectory: "es",
+    libraryName: "antd",
+    style: true,
+});
+
+// const cwd = process.cwd();
+// const pkgPath = path.resolve(cwd,'./package.json');
+// const pkg = require(pkgPath);
 
 
 export default {
     // 要打包的文件源路径
-    input: 'src/index.js',
+    input: 'src/index.ts',
     // 文件输出配置
     output: [
-        // {
-        //     // 打包后产生的文件位置
-        //     file: pkg.main,
-        //     // 文件的输出格式（CommonJS规范，时Node.js的官方模块化规范）
-        //     format:'cjs',
-        //     sourcemap:true,
-        // },
         {
-            file: mainPkg.main,
-            format: 'cjs', // 输出文件格式为CommonJS
-            sourcemap: true,
+            file: pkg.main,
+            format:'cjs',
         },
         {
-            file: mainPkg.module,
-            format: 'es',
-            sourcemap: true
+            file: pkg.module,
+            format:'es',
         },
+        { file: pkg.min, format: "cjs", plugins: [terser()] },
         {
             file: pkg.scss,
             format:'esm',
@@ -46,12 +47,8 @@ export default {
     // 打包时忽略的文件
     external:[
         ...Object.keys(pkg.peerDependencies || {}),
-        ...Object.keys(pkg.dependencies || {}),
+        // ...Object.keys(pkg.dependencies || {}),
     ],
-    // // 全局变量，指定打包时使用的全局变量，类似别名
-    // global:{
-    //
-    // },
     // 插件
     plugins: [
         // 不打UMD的包不需要这两个
@@ -84,6 +81,14 @@ export default {
         babel({
             // 只翻译源代码
             exclude:'node_modules/**',
-        })
+        }),
+        typescript({
+            clean: true,
+            typescript: require("typescript"),
+            tsconfig: "tsconfig.json",
+            transformers: () => ({
+                before: [tsImportPlugin]
+            }),
+        }),
     ]
 }
