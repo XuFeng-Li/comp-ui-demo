@@ -1,10 +1,8 @@
 import React from "react";
 
-import { XFButton } from "xfbutton";
+// import { XFButton } from "xfbutton";
 
 import "./XFDemoHeader.css";
-import {Button} from "../../../src/stories/Button";
-import {HeaderProps} from "../../../src/stories/Header";
 
 
 export interface XFDemoHeaderProps {
@@ -14,7 +12,7 @@ export interface XFDemoHeaderProps {
     onCreateAccount: () => void;
 }
 
-export const XFDemoHeader: React.FC<HeaderProps> = ({ user, onLogin, onLogout, onCreateAccount }) => (
+export const XFDemoHeader: React.FC<XFDemoHeaderProps> = ({ user, onLogin, onLogout, onCreateAccount }) => (
     <header>
         <div className="wrapper">
             <div>
@@ -36,7 +34,7 @@ export const XFDemoHeader: React.FC<HeaderProps> = ({ user, onLogin, onLogout, o
                 </svg>
                 <h1>Acme</h1>
             </div>
-            <div>
+            {/*<div>
                 {user ? (
                     <XFButton size="small" onClick={onLogout} label="Log out" />
                 ) : (
@@ -45,7 +43,7 @@ export const XFDemoHeader: React.FC<HeaderProps> = ({ user, onLogin, onLogout, o
                         <XFButton primary size="small" onClick={onCreateAccount} label="Sign up" />
                     </div>
                 )}
-            </div>
+            </div>*/}
         </div>
     </header>
 );
