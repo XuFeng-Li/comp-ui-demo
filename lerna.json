@@ -1,15 +1,21 @@
 {
   "name": "root",
-  "packages": ["packages/*"],
-  "version": "0.0.7",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.8",
   "npmClient": "npm",
   "command": {
     "publish": {
       "message": "chore(release): publish %s",
-      "ignoreChanges": ["eslint/**"]
+      "ignoreChanges": [
+        "eslint/**"
+      ]
     },
     "bootstrap": {
-      "npmClientArgs": [ "--no-package-lock" ]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   }
 }
