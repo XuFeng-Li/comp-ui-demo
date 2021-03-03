@@ -10,11 +10,11 @@ import svgr from '@svgr/rollup';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
 
+
 const cwd = process.cwd();
 const pkgPath = path.resolve(cwd,'./package.json');
 const pkg = require(pkgPath);
 const mainPkg = require('./package.json');
-
 
 export default {
     // 要打包的文件源路径
@@ -39,7 +39,7 @@ export default {
             sourcemap: true
         },
         {
-            file: pkg.scss,
+            file: mainPkg.scss,
             format:'esm',
         }
     ],

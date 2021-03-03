@@ -6,7 +6,9 @@
   "homepage": "https://github.com/XuFeng-Li/comp-ui-demo#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "min": "dist/index.min.js",
   "module": "dist/es/index.es.js",
+  "scss": "dist/esm/index.esm.scss",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XuFeng-Li/comp-ui-demo.git"
@@ -15,7 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c ../../rollup.config.js",
     "module": "dist/es/index.es.js",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c ../../rollup.config.js"
   },
   "bugs": {
     "url": "https://github.com/XuFeng-Li/comp-ui-demo/issues"
