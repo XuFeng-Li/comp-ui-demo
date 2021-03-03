@@ -1,6 +1,6 @@
 {
   "name": "xf-compui-demo-header",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "this is header demo",
   "keywords": [
     "header"
@@ -24,6 +24,6 @@
     "url": "https://github.com/XuFeng-Li/comp-ui-demo/issues"
   },
   "dependencies": {
-    "xfbutton": "^0.0.3"
+    "xfbutton": "^0.0.4"
   }
 }
