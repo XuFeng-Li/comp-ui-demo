@@ -2,10 +2,6 @@
 // babel 不支持 es 语法
 
 module.exports = {
-    babelrc: true,
-    exclude: [
-
-    ],
     presets: [
         [
             "@babel/preset-env",
@@ -18,7 +14,6 @@ module.exports = {
     ],
     plugins: [
         // "@babel/plugin-external-helpers",
-        "@babel/core",
         "@babel/plugin-transform-arrow-functions",
         "@babel/plugin-proposal-class-properties",
         [
