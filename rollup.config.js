@@ -1,8 +1,11 @@
 import path from 'path';
+// import commonjs from 'rollup-plugin-commonjs';
+// import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import postcss from 'rollup-plugin-postcss';
 import json from 'rollup-plugin-json';
 import url from 'rollup-plugin-url';
+// import terser from 'rollup-plugin-terser';
 import scss from 'rollup-plugin-scss';
 import resolve from 'rollup-plugin-node-resolve';
 import external from 'rollup-plugin-peer-deps-external';
@@ -20,6 +23,13 @@ export default {
     input: path.resolve(__dirname, './src', 'index.js'),
     // 文件输出配置
     output: [
+        // {
+        //     // 打包后产生的文件位置
+        //     file: pkg.main,
+        //     // 文件的输出格式（CommonJS规范，时Node.js的官方模块化规范）
+        //     format:'cjs',
+        //     sourcemap:true,
+        // },
         {
             file: pkg.main,
             format:'cjs',
@@ -39,6 +49,10 @@ export default {
         ...Object.keys(pkg.peerDependencies || {}),
         ...Object.keys(pkg.dependencies || {}),
     ],
+    // // 全局变量，指定打包时使用的全局变量，类似别名
+    // global:{
+    //
+    // },
     // 插件
     plugins: [
         // 不打UMD的包不需要这两个
