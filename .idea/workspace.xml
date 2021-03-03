@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a42492-7a2b-40f9-931a-383cdfe2e1f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/xfbutton/.npmignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/xfbutton/node_modules/.yarn-integrity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/xfbutton/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/xfbutton/package.json" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/xfbutton/node_modules/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +27,7 @@
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+                  <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -58,17 +68,22 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/packages/xfbutton/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/packages/xfbutton/.npmignore">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -76,7 +91,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/stories/button.css">
               <provider selected="true" editor-type-id="text-editor">
@@ -89,7 +104,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/stories/Button.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="67">
+                <state relative-caret-position="210">
                   <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
                 </state>
               </provider>
@@ -98,7 +113,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/stories/Button.stories.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
+                <state relative-caret-position="33">
                   <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
                   <folding>
                     <element signature="e#113#170#0" expanded="true" />
@@ -118,6 +133,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/packages/xfbutton/.npmignore" />
       </list>
     </option>
   </component>
@@ -158,13 +174,6 @@
             <path>
               <item name="comp-ui-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="comp-ui-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="xfbutton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comp-ui-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comp-ui-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -180,6 +189,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,15 +207,24 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52a42492-7a2b-40f9-931a-383cdfe2e1f7" name="Default Changelist" comment="" />
+      <created>1614757699772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614757699772</updated>
+      <workItem from="1614757701435" duration="1019000" />
+    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="648000" />
+    <option name="totallyTimeSpent" value="1667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1080" y="-709" width="1080" height="1920" extended-state="6" />
+    <frame x="-1080" y="-709" width="1080" height="1920" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22568461" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40415487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -219,7 +238,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4908108" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26756757" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -246,20 +265,84 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/xfbutton/package.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xfbutton/src/XFButton.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xfbutton/src/XFButton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xfbutton/src/XFButton.stories.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#113#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stories/button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stories/Button.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stories/Button.stories.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#113#170#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="330">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xfbutton/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xfbutton/.npmignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
