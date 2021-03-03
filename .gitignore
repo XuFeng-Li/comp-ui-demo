@@ -24,3 +24,9 @@ yarn-error.log*
 
 # bundle
 /dist
+
+.idea/*
+!.idea/codeStyles/
+!.idea/fileTemplates/
+!.idea/inspectionProfiles/
+!.idea/vcs.xml
