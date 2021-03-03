@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a42492-7a2b-40f9-931a-383cdfe2e1f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/packages/xfbutton/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/packages/xfbutton/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/xfbutton/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/xfbutton/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -21,11 +20,11 @@
     <splitter split-orientation="vertical" split-proportion="0.5648298">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+                <state relative-caret-position="290">
+                  <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -72,11 +71,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/packages/xfbutton/LICENSE">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
                   <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.npmrc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -143,6 +151,8 @@
         <option value="$PROJECT_DIR$/packages/xfbutton/.npmignore" />
         <option value="$PROJECT_DIR$/packages/xfbutton/package.json" />
         <option value="$PROJECT_DIR$/packages/xfbutton/LICENSE" />
+        <option value="$PROJECT_DIR$/.npmrc" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -222,12 +232,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614757699772</updated>
-      <workItem from="1614757701435" duration="2104000" />
+      <workItem from="1614757701435" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2752000" />
+    <option name="totallyTimeSpent" value="3285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="-709" width="1080" height="1920" extended-state="0" />
@@ -278,13 +288,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/xfbutton/src/XFButton.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -357,6 +360,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
         </state>
       </provider>
     </entry>
