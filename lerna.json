@@ -1,33 +1,15 @@
 {
-  "packages_comment": "用作包装位置的 glob 数组， 默认为 [\"packages/*\"], 也可以修改为其他目录",
-  "packages": [
-    "packages/*"
-  ],
-  "version_comment": "当前存储库的版本，当为 independent 时，开启独立模式",
+  "name": "root",
+  "packages": [ "packages/*" ],
   "version": "0.0.7",
-  "npmClient_comment": "一个选项，用于指定运行命令的特定客户端。 可更改为 yarn 或者 cnpm",
   "npmClient": "npm",
   "command": {
     "publish": {
-      "message_comment": "执行发布版本时自动会 commit 一条指定记录，当消息记录里包含 %s 将会替换为 v1.1.1, 如果是 %v 则直接替换为 1.1.1，如果是 independent 模式则会独立更新每个包的版本",
       "message": "chore(release): publish %s",
-      "ignoreChanges_comment": "接受一组 glob 数组，忽略不必要的更改发布新版本",
-      "ignoreChanges": [
-        "ignored-file",
-        "*.md"
-      ],
-      "registry_comment": "设置要发布到的自定义地址",
-      "registry_test": "https://www.npmjs.com/package"
+      "ignoreChanges": ["eslint/**"]
     },
     "bootstrap": {
-      "ignore_comment": "接收一个 glob 数组， 指定运行 lerna bootstrap 命令时需要忽略的目录",
-      "ignore": [
-        "component-*"
-      ],
-      "npmClientArgs_comment": "接收一个字符串数组， 将参数直接传递给 npm install",
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
+      "npmClientArgs": [ "--no-package-lock" ]
     }
   }
 }
