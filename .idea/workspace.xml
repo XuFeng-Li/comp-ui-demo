@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a42492-7a2b-40f9-931a-383cdfe2e1f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/xf-compui-demo-header/node_modules/.yarn-integrity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/xf-compui-demo-header/node_modules/xfbutton" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/xf-compui-demo-header/src/XFDemoHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/xf-compui-demo-header/src/XFDemoHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/xf-compui-demo-header/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/xf-compui-demo-header/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -22,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/xf-compui-demo-header/src/XFDemoHeader.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="735">
               <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/xf-compui-demo-header/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -50,10 +55,10 @@
         <option value="$PROJECT_DIR$/packages/xf-compui-demo-header/src/Header.css" />
         <option value="$PROJECT_DIR$/packages/xf-compui-demo-header/src/Header.tsx" />
         <option value="$PROJECT_DIR$/packages/xfbutton/.npmignore" />
-        <option value="$PROJECT_DIR$/packages/xf-compui-demo-header/package.json" />
         <option value="$PROJECT_DIR$/lerna.json" />
         <option value="$PROJECT_DIR$/packages/xf-compui-demo-header/src/XFDemoHeader.stories.tsx" />
         <option value="$PROJECT_DIR$/packages/xf-compui-demo-header/src/XFDemoHeader.tsx" />
+        <option value="$PROJECT_DIR$/packages/xf-compui-demo-header/package.json" />
       </list>
     </option>
   </component>
@@ -149,18 +154,18 @@
       <option name="presentableId" value="Default" />
       <updated>1614757699772</updated>
       <workItem from="1614757701435" duration="3556000" />
-      <workItem from="1614772394157" duration="88000" />
+      <workItem from="1614772394157" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8841000" />
+    <option name="totallyTimeSpent" value="8875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="-709" width="1080" height="1920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2776204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2776204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -323,13 +328,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/xf-compui-demo-header/node_modules/xfbutton/package.json" />
-    <entry file="file://$PROJECT_DIR$/packages/xf-compui-demo-header/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stories/Header.stories.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
@@ -402,6 +400,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xf-compui-demo-header/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
