@@ -25,5 +25,6 @@
   },
   "dependencies": {
     "xfbutton": "^0.0.4"
-  }
+  },
+  "gitHead": "12d272a03096d5f0c516c531c627695f19415a64"
 }
