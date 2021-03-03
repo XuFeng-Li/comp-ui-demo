@@ -4,7 +4,7 @@
   "description": "自定义按钮",
   "author": "李旭峰 <lxf@asman.com.cn>",
   "homepage": "https://github.com/XuFeng-Li/comp-ui-demo#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/es/index.es.js",
   "repository": {
