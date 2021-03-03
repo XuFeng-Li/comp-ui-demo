@@ -27,6 +27,7 @@ export interface XFButtonProps {
 /**
  * Primary UI component for user interaction
  */
+
 export const XFButton: React.FC<XFButtonProps> = ({
                                                   primary = false,
                                                   size = 'medium',

@@ -4,7 +4,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 var XFButton = require('XFButton');
 
-
+const PackageIdentifier = "com.package.identifier.XFButton";
 
 Object.defineProperty(exports, 'XFButton', {
 	enumerable: true,
@@ -18,4 +18,5 @@ Object.defineProperty(exports, 'XFButtonProps', {
 		return XFButton.XFButtonProps;
 	}
 });
+exports.PackageIdentifier = PackageIdentifier;
 //# sourceMappingURL=index.js.map

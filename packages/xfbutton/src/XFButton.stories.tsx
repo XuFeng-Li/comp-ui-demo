@@ -17,12 +17,12 @@ const Template: Story<XFButtonProps> = (args) => <XFButton {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
     primary: true,
-    label: 'Button',
+    label:'Button',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-    label: 'Button',
+    label:'Button',
 };
 
 export const Large = Template.bind({});
