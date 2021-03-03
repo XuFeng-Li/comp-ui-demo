@@ -17,7 +17,8 @@
     "react-scripts": "4.0.1",
     "rollup-plugin-typescript2": "^0.29.0",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "Button": "^0.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
