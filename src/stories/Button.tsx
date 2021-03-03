@@ -10,11 +10,11 @@ export interface ButtonProps {
    */
   backgroundColor?: string;
   /**
-   * How large should the button be?
+   * How large should the xfbutton be?
    */
   size?: 'small' | 'medium' | 'large';
   /**
-   * Button contents
+   * XFButton contents
    */
   label: string;
   /**
@@ -33,11 +33,11 @@ export const Button: React.FC<ButtonProps> = ({
   label,
   ...props
 }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const mode = primary ? 'storybook-xfbutton--primary' : 'storybook-xfbutton--secondary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['storybook-xfbutton', `storybook-button--${size}`, mode].join(' ')}
       style={{ backgroundColor }}
       {...props}
     >
