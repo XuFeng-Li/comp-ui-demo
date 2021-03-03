@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "packages": [ "packages/*" ],
+  "packages": ["packages/*"],
   "version": "0.0.7",
   "npmClient": "npm",
   "command": {
