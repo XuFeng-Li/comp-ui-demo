@@ -18787,10 +18787,10 @@ ws@^7.2.3:
   resolved "https://registry.npmjs.org/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
   integrity sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
 
-xfbutton@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/xfbutton/-/xfbutton-0.0.6.tgz#4aa29f2a88dbe93639e41f90cd2f16ead1ff6ba0"
-  integrity sha512-wN4yqIZmq+6R/N6CxMwY5Roa+i1Xz6UK+KdTYVMOCJFyWwqBmJBGyVTOIb7rcPMY6RmupH1VasIqK67oBCzaLg==
+xfbutton@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.npmjs.org/xfbutton/-/xfbutton-0.0.8.tgz#10c1f73a0b25bf6a85d42a442d20489cd329e9a9"
+  integrity sha512-00AJ8YDgwL6Ao2DTlA3Jpc8gCtKV2slpx454rDfXKKn7bqnSdIlf76cb6KeSvOeplr38GoMpq6RTcRrJCxDYCQ==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"

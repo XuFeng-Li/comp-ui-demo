@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {  } from "xfbutton";
+import { XFButton } from "xfbutton";
 
 function App() {
   return (
@@ -19,7 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
-      <body></body>
+      <body>
+        <XFButton />
+      </body>
       <script src='../dist/bundle.cjs.js' />
     </div>
   );
