@@ -1,6 +1,7 @@
 {
   "name": "xfbutton",
   "version": "0.0.3",
+  "private": true,
   "description": "自定义按钮",
   "author": "李旭峰 <lxf@asman.com.cn>",
   "homepage": "https://github.com/XuFeng-Li/comp-ui-demo#readme",
@@ -20,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/XuFeng-Li/comp-ui-demo/issues"
   },
-  "gitHead": "e33af318e7a2ef1c2ecf6e6cf82ee0eb1a38a534"
+  "gitHead": "cd3d036417fe9f45d3d3d9552c11d671f795c6a3"
 }
