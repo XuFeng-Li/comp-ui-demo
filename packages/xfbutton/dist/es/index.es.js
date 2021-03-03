@@ -1,6 +1,10 @@
-export { XFButton, XFButtonProps } from 'XFButton';
+// import { XFButton, XFButtonProps } from "./XFButton.tsx";
+//
+// export {
+//     XFButton,
+//     XFButtonProps,
+// }
+const pId = "111";
 
-const PackageIdentifier = "com.package.identifier.XFButton";
-
-export { PackageIdentifier };
+export { pId };
 //# sourceMappingURL=index.es.js.map

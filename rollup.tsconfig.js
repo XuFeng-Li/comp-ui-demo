@@ -6,11 +6,13 @@ import url from 'rollup-plugin-url';
 import scss from 'rollup-plugin-scss';
 import resolve from 'rollup-plugin-node-resolve';
 import external from 'rollup-plugin-peer-deps-external';
+import typescript from 'rollup-plugin-typescript2'
 import svgr from '@svgr/rollup';
+import terser from 'rollup-plugin-terser';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
 
-import pkg from './package.json';
+import mainPkg from './package.json';
 
 const tsImportPluginFactory = require("ts-import-plugin");
 
@@ -20,14 +22,19 @@ const tsImportPlugin = tsImportPluginFactory({
     style: true,
 });
 
-// const cwd = process.cwd();
-// const pkgPath = path.resolve(cwd,'./package.json');
-// const pkg = require(pkgPath);
+const cwd = process.cwd();
+const pkgPath = path.resolve(cwd,'./package.json');
+const pkg = require(pkgPath);
+
+console.log("**************************************** rollup.jsconfig.js");
+console.log(cwd);
+console.log(pkgPath);
+console.log(pkg);
 
 
 export default {
     // 要打包的文件源路径
-    input: 'src/index.ts',
+    input: 'src/index.js',
     // 文件输出配置
     output: [
         {
@@ -38,7 +45,7 @@ export default {
             file: pkg.module,
             format:'es',
         },
-        { file: pkg.min, format: "cjs", plugins: [terser()] },
+        // { file: pkg.min, format: "cjs", plugins: [terser()] },
         {
             file: pkg.scss,
             format:'esm',

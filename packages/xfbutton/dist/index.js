@@ -2,21 +2,13 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var XFButton = require('XFButton');
+// import { XFButton, XFButtonProps } from "./XFButton.tsx";
+//
+// export {
+//     XFButton,
+//     XFButtonProps,
+// }
+const pId = "111";
 
-const PackageIdentifier = "com.package.identifier.XFButton";
-
-Object.defineProperty(exports, 'XFButton', {
-	enumerable: true,
-	get: function () {
-		return XFButton.XFButton;
-	}
-});
-Object.defineProperty(exports, 'XFButtonProps', {
-	enumerable: true,
-	get: function () {
-		return XFButton.XFButtonProps;
-	}
-});
-exports.PackageIdentifier = PackageIdentifier;
+exports.pId = pId;
 //# sourceMappingURL=index.js.map

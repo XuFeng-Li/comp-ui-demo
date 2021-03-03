@@ -14,34 +14,34 @@ import cssnano from 'cssnano';
 const cwd = process.cwd();
 const pkgPath = path.resolve(cwd,'./package.json');
 const pkg = require(pkgPath);
-const mainPkg = require('./package.json');
+console.log("**************************************** rollup.config.js");
+console.log(cwd);
+console.log(pkgPath);
+console.log(pkg);
+console.log(pkg.main);
+console.log(pkg.module);
+
+// const mainPkg = require('./package.json');
 
 export default {
     // 要打包的文件源路径
     input: 'src/index.js',
     // 文件输出配置
     output: [
-        // {
-        //     // 打包后产生的文件位置
-        //     file: pkg.main,
-        //     // 文件的输出格式（CommonJS规范，时Node.js的官方模块化规范）
-        //     format:'cjs',
-        //     sourcemap:true,
-        // },
         {
-            file: mainPkg.main,
+            file: pkg.main,
             format: 'cjs', // 输出文件格式为CommonJS
             sourcemap: true,
         },
         {
-            file: mainPkg.module,
+            file: pkg.module,
             format: 'es',
             sourcemap: true
         },
-        {
-            file: mainPkg.scss,
-            format:'esm',
-        }
+        // {
+        //     file: mainPkg.scss,
+        //     format:'esm',
+        // }
     ],
     // 打包时忽略的文件
     external:[

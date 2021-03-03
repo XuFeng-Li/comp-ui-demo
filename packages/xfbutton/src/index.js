@@ -1,3 +1,8 @@
-export { XFButton,XFButtonProps } from "XFButton";
+// import { XFButton, XFButtonProps } from "./XFButton.tsx";
+//
+// export {
+//     XFButton,
+//     XFButtonProps,
+// }
 
-export const PackageIdentifier = "com.package.identifier.XFButton";
+export const pId = "111";
